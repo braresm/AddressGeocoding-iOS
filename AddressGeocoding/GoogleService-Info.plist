@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>855575790267-lqqv9od43ip7f3to9t0p4kau60cujkjr.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.855575790267-lqqv9od43ip7f3to9t0p4kau60cujkjr</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBEF6dypuYnoLDc7VZ8KXG6Vw3Xzakpdg4</string>
+	<key>GCM_SENDER_ID</key>
+	<string>855575790267</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>balutoiu.rares.addressgeocoding</string>
+	<key>PROJECT_ID</key>
+	<string>addressgeocoding-55ce7</string>
+	<key>STORAGE_BUCKET</key>
+	<string>addressgeocoding-55ce7.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:855575790267:ios:734148c59c9b4995fb1f9e</string>
+</dict>
+</plist>

@@ -1,0 +1,714 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C20C5BD629D3225600A307E0 /* MapViewContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20C5BD529D3225600A307E0 /* MapViewContent.swift */; };
+		C20D283F29DD80BC00E9EB93 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = C20D283E29DD80BC00E9EB93 /* FirebaseAuth */; };
+		C20D284129DD80BC00E9EB93 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = C20D284029DD80BC00E9EB93 /* FirebaseFirestore */; };
+		DE0F177B29CA021800234F48 /* AddressGeocodingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0F177A29CA021800234F48 /* AddressGeocodingApp.swift */; };
+		DE0F177D29CA021800234F48 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0F177C29CA021800234F48 /* ContentView.swift */; };
+		DE0F177F29CA021800234F48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE0F177E29CA021800234F48 /* Assets.xcassets */; };
+		DE0F178329CA021800234F48 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE0F178229CA021800234F48 /* Preview Assets.xcassets */; };
+		DE0F178D29CA021800234F48 /* AddressGeocodingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0F178C29CA021800234F48 /* AddressGeocodingTests.swift */; };
+		DE0F179729CA021800234F48 /* AddressGeocodingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0F179629CA021800234F48 /* AddressGeocodingUITests.swift */; };
+		DE0F179929CA021800234F48 /* AddressGeocodingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0F179829CA021800234F48 /* AddressGeocodingUITestsLaunchTests.swift */; };
+		DEB3833F29CA415C0048F0D9 /* AddressMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB3833E29CA415C0048F0D9 /* AddressMap.swift */; };
+		DEB3834329CA416E0048F0D9 /* AddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB3834029CA416E0048F0D9 /* AddressView.swift */; };
+		DEB3834429CA416E0048F0D9 /* Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB3834129CA416E0048F0D9 /* Navigation.swift */; };
+		DEB3834929CA42030048F0D9 /* AddButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB3834829CA42030048F0D9 /* AddButton.swift */; };
+		DEB3834D29CA42180048F0D9 /* AddressItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB3834B29CA42180048F0D9 /* AddressItem.swift */; };
+		DEB3835029CA44640048F0D9 /* MapModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB3834F29CA44630048F0D9 /* MapModel.swift */; };
+		DEB7D75129E8516000E63A06 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DEB7D75029E8516000E63A06 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DE0F178929CA021800234F48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE0F176F29CA021800234F48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE0F177629CA021800234F48;
+			remoteInfo = AddressGeocoding;
+		};
+		DE0F179329CA021800234F48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE0F176F29CA021800234F48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE0F177629CA021800234F48;
+			remoteInfo = AddressGeocoding;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C20C5BD529D3225600A307E0 /* MapViewContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewContent.swift; sourceTree = "<group>"; };
+		DE0F177729CA021800234F48 /* AddressGeocoding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AddressGeocoding.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE0F177A29CA021800234F48 /* AddressGeocodingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressGeocodingApp.swift; sourceTree = "<group>"; };
+		DE0F177C29CA021800234F48 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DE0F177E29CA021800234F48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE0F178029CA021800234F48 /* AddressGeocoding.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AddressGeocoding.entitlements; sourceTree = "<group>"; };
+		DE0F178229CA021800234F48 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DE0F178829CA021800234F48 /* AddressGeocodingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AddressGeocodingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE0F178C29CA021800234F48 /* AddressGeocodingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressGeocodingTests.swift; sourceTree = "<group>"; };
+		DE0F179229CA021800234F48 /* AddressGeocodingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AddressGeocodingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE0F179629CA021800234F48 /* AddressGeocodingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressGeocodingUITests.swift; sourceTree = "<group>"; };
+		DE0F179829CA021800234F48 /* AddressGeocodingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressGeocodingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DEB3833E29CA415C0048F0D9 /* AddressMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressMap.swift; sourceTree = "<group>"; };
+		DEB3834029CA416E0048F0D9 /* AddressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressView.swift; sourceTree = "<group>"; };
+		DEB3834129CA416E0048F0D9 /* Navigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Navigation.swift; sourceTree = "<group>"; };
+		DEB3834829CA42030048F0D9 /* AddButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddButton.swift; sourceTree = "<group>"; };
+		DEB3834B29CA42180048F0D9 /* AddressItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressItem.swift; sourceTree = "<group>"; };
+		DEB3834F29CA44630048F0D9 /* MapModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapModel.swift; sourceTree = "<group>"; };
+		DEB3835129CA46340048F0D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		DEB7D75029E8516000E63A06 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE0F177429CA021800234F48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C20D283F29DD80BC00E9EB93 /* FirebaseAuth in Frameworks */,
+				C20D284129DD80BC00E9EB93 /* FirebaseFirestore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE0F178529CA021800234F48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE0F178F29CA021800234F48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE0F176E29CA021800234F48 = {
+			isa = PBXGroup;
+			children = (
+				DE0F177929CA021800234F48 /* AddressGeocoding */,
+				DE0F178B29CA021800234F48 /* AddressGeocodingTests */,
+				DE0F179529CA021800234F48 /* AddressGeocodingUITests */,
+				DE0F177829CA021800234F48 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE0F177829CA021800234F48 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE0F177729CA021800234F48 /* AddressGeocoding.app */,
+				DE0F178829CA021800234F48 /* AddressGeocodingTests.xctest */,
+				DE0F179229CA021800234F48 /* AddressGeocodingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE0F177929CA021800234F48 /* AddressGeocoding */ = {
+			isa = PBXGroup;
+			children = (
+				DEB7D75029E8516000E63A06 /* GoogleService-Info.plist */,
+				DEB3835129CA46340048F0D9 /* Info.plist */,
+				DEB3834A29CA420B0048F0D9 /* items */,
+				DEB3834729CA41F10048F0D9 /* structs */,
+				DEB3833D29CA41230048F0D9 /* views */,
+				DE0F177A29CA021800234F48 /* AddressGeocodingApp.swift */,
+				DE0F177C29CA021800234F48 /* ContentView.swift */,
+				DEB3834F29CA44630048F0D9 /* MapModel.swift */,
+				DE0F177E29CA021800234F48 /* Assets.xcassets */,
+				DE0F178029CA021800234F48 /* AddressGeocoding.entitlements */,
+				DE0F178129CA021800234F48 /* Preview Content */,
+			);
+			path = AddressGeocoding;
+			sourceTree = "<group>";
+		};
+		DE0F178129CA021800234F48 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DE0F178229CA021800234F48 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DE0F178B29CA021800234F48 /* AddressGeocodingTests */ = {
+			isa = PBXGroup;
+			children = (
+				DE0F178C29CA021800234F48 /* AddressGeocodingTests.swift */,
+			);
+			path = AddressGeocodingTests;
+			sourceTree = "<group>";
+		};
+		DE0F179529CA021800234F48 /* AddressGeocodingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DE0F179629CA021800234F48 /* AddressGeocodingUITests.swift */,
+				DE0F179829CA021800234F48 /* AddressGeocodingUITestsLaunchTests.swift */,
+			);
+			path = AddressGeocodingUITests;
+			sourceTree = "<group>";
+		};
+		DEB3833D29CA41230048F0D9 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				DEB3834029CA416E0048F0D9 /* AddressView.swift */,
+				DEB3834129CA416E0048F0D9 /* Navigation.swift */,
+				DEB3833E29CA415C0048F0D9 /* AddressMap.swift */,
+				C20C5BD529D3225600A307E0 /* MapViewContent.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		DEB3834729CA41F10048F0D9 /* structs */ = {
+			isa = PBXGroup;
+			children = (
+				DEB3834829CA42030048F0D9 /* AddButton.swift */,
+			);
+			path = structs;
+			sourceTree = "<group>";
+		};
+		DEB3834A29CA420B0048F0D9 /* items */ = {
+			isa = PBXGroup;
+			children = (
+				DEB3834B29CA42180048F0D9 /* AddressItem.swift */,
+			);
+			path = items;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE0F177629CA021800234F48 /* AddressGeocoding */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE0F179C29CA021800234F48 /* Build configuration list for PBXNativeTarget "AddressGeocoding" */;
+			buildPhases = (
+				DE0F177329CA021800234F48 /* Sources */,
+				DE0F177429CA021800234F48 /* Frameworks */,
+				DE0F177529CA021800234F48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AddressGeocoding;
+			packageProductDependencies = (
+				C20D283E29DD80BC00E9EB93 /* FirebaseAuth */,
+				C20D284029DD80BC00E9EB93 /* FirebaseFirestore */,
+			);
+			productName = AddressGeocoding;
+			productReference = DE0F177729CA021800234F48 /* AddressGeocoding.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DE0F178729CA021800234F48 /* AddressGeocodingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE0F179F29CA021800234F48 /* Build configuration list for PBXNativeTarget "AddressGeocodingTests" */;
+			buildPhases = (
+				DE0F178429CA021800234F48 /* Sources */,
+				DE0F178529CA021800234F48 /* Frameworks */,
+				DE0F178629CA021800234F48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE0F178A29CA021800234F48 /* PBXTargetDependency */,
+			);
+			name = AddressGeocodingTests;
+			productName = AddressGeocodingTests;
+			productReference = DE0F178829CA021800234F48 /* AddressGeocodingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DE0F179129CA021800234F48 /* AddressGeocodingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE0F17A229CA021800234F48 /* Build configuration list for PBXNativeTarget "AddressGeocodingUITests" */;
+			buildPhases = (
+				DE0F178E29CA021800234F48 /* Sources */,
+				DE0F178F29CA021800234F48 /* Frameworks */,
+				DE0F179029CA021800234F48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE0F179429CA021800234F48 /* PBXTargetDependency */,
+			);
+			name = AddressGeocodingUITests;
+			productName = AddressGeocodingUITests;
+			productReference = DE0F179229CA021800234F48 /* AddressGeocodingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE0F176F29CA021800234F48 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					DE0F177629CA021800234F48 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					DE0F178729CA021800234F48 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = DE0F177629CA021800234F48;
+					};
+					DE0F179129CA021800234F48 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = DE0F177629CA021800234F48;
+					};
+				};
+			};
+			buildConfigurationList = DE0F177229CA021800234F48 /* Build configuration list for PBXProject "AddressGeocoding" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE0F176E29CA021800234F48;
+			packageReferences = (
+				C20D283D29DD80BB00E9EB93 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = DE0F177829CA021800234F48 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE0F177629CA021800234F48 /* AddressGeocoding */,
+				DE0F178729CA021800234F48 /* AddressGeocodingTests */,
+				DE0F179129CA021800234F48 /* AddressGeocodingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE0F177529CA021800234F48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE0F178329CA021800234F48 /* Preview Assets.xcassets in Resources */,
+				DE0F177F29CA021800234F48 /* Assets.xcassets in Resources */,
+				DEB7D75129E8516000E63A06 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE0F178629CA021800234F48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE0F179029CA021800234F48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE0F177329CA021800234F48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE0F177D29CA021800234F48 /* ContentView.swift in Sources */,
+				C20C5BD629D3225600A307E0 /* MapViewContent.swift in Sources */,
+				DEB3834D29CA42180048F0D9 /* AddressItem.swift in Sources */,
+				DEB3834929CA42030048F0D9 /* AddButton.swift in Sources */,
+				DEB3834329CA416E0048F0D9 /* AddressView.swift in Sources */,
+				DEB3834429CA416E0048F0D9 /* Navigation.swift in Sources */,
+				DEB3835029CA44640048F0D9 /* MapModel.swift in Sources */,
+				DE0F177B29CA021800234F48 /* AddressGeocodingApp.swift in Sources */,
+				DEB3833F29CA415C0048F0D9 /* AddressMap.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE0F178429CA021800234F48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE0F178D29CA021800234F48 /* AddressGeocodingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE0F178E29CA021800234F48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE0F179729CA021800234F48 /* AddressGeocodingUITests.swift in Sources */,
+				DE0F179929CA021800234F48 /* AddressGeocodingUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE0F178A29CA021800234F48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE0F177629CA021800234F48 /* AddressGeocoding */;
+			targetProxy = DE0F178929CA021800234F48 /* PBXContainerItemProxy */;
+		};
+		DE0F179429CA021800234F48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE0F177629CA021800234F48 /* AddressGeocoding */;
+			targetProxy = DE0F179329CA021800234F48 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DE0F179A29CA021800234F48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DE0F179B29CA021800234F48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		DE0F179D29CA021800234F48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AddressGeocoding/AddressGeocoding.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AddressGeocoding/Preview Content\"";
+				DEVELOPMENT_TEAM = 9PSWVYC7SC;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AddressGeocoding/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app needs your location to show it on map.";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = balutoiu.rares.AddressGeocoding;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE0F179E29CA021800234F48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AddressGeocoding/AddressGeocoding.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AddressGeocoding/Preview Content\"";
+				DEVELOPMENT_TEAM = 9PSWVYC7SC;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AddressGeocoding/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app needs your location to show it on map.";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = balutoiu.rares.AddressGeocoding;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DE0F17A029CA021800234F48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9PSWVYC7SC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = balutoiu.rares.AddressGeocodingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AddressGeocoding.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AddressGeocoding";
+			};
+			name = Debug;
+		};
+		DE0F17A129CA021800234F48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9PSWVYC7SC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = balutoiu.rares.AddressGeocodingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AddressGeocoding.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AddressGeocoding";
+			};
+			name = Release;
+		};
+		DE0F17A329CA021800234F48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9PSWVYC7SC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = balutoiu.rares.AddressGeocodingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AddressGeocoding;
+			};
+			name = Debug;
+		};
+		DE0F17A429CA021800234F48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9PSWVYC7SC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = balutoiu.rares.AddressGeocodingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AddressGeocoding;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE0F177229CA021800234F48 /* Build configuration list for PBXProject "AddressGeocoding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE0F179A29CA021800234F48 /* Debug */,
+				DE0F179B29CA021800234F48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE0F179C29CA021800234F48 /* Build configuration list for PBXNativeTarget "AddressGeocoding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE0F179D29CA021800234F48 /* Debug */,
+				DE0F179E29CA021800234F48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE0F179F29CA021800234F48 /* Build configuration list for PBXNativeTarget "AddressGeocodingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE0F17A029CA021800234F48 /* Debug */,
+				DE0F17A129CA021800234F48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE0F17A229CA021800234F48 /* Build configuration list for PBXNativeTarget "AddressGeocodingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE0F17A329CA021800234F48 /* Debug */,
+				DE0F17A429CA021800234F48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C20D283D29DD80BB00E9EB93 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C20D283E29DD80BC00E9EB93 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C20D283D29DD80BB00E9EB93 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		C20D284029DD80BC00E9EB93 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C20D283D29DD80BB00E9EB93 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = DE0F176F29CA021800234F48 /* Project object */;
+}
